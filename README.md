@@ -48,7 +48,7 @@ By default Sauna takes measurements throughout the execution, but this can be re
 
 ## License
 
-This project is licensed under GNU GPLv3 - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under GNU GPLv3 - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
