@@ -8,7 +8,7 @@ It performs a sequence of power measurements on the different devices during the
 
 The energy measurements of the CPUs is done through the Running Average Power Limit (RAPL). Support for these was added to the Linux kernel since version 3.14.
 
-To access the Nvidia GPUs and XeonPhi, Sauna uses two libraries provided by both manufacturers. From Nvidia, Sauna requires the [GDK](https://developer.nvidia.com/gpu-deployment-kit). And from Intel, the [XeonPhi Library]() must be installed.
+To access the Nvidia GPUs and XeonPhi, Sauna uses two libraries provided by both manufacturers. From Nvidia, Sauna requires the [GDK](https://developer.nvidia.com/gpu-deployment-kit). And for the XeonPhi, the library is included in the device drivers package.
 
 
 ## Building
@@ -24,6 +24,7 @@ Building of the Nvidia or XeonPhi modules can be disabled on the command line by
 ```sh
 $ make XEONPHI=1 NVIDIA=0
 ```
+Installation is done by simply copying the 'sauna' binary to a directory in the PATH.
 
 ## Running
 
