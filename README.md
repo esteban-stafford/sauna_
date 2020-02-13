@@ -2,11 +2,11 @@
 
 A tool to measure energy the consumption of CPUs, GPUs and XeonPhi.
 
-It performs a sequence of power measurements on the different devices during the execution of a given program. Output is made in tabular form, convenient for graphing. 
+It performs a sequence of power measurements on the different devices during the execution of a given program. Output is produced in tabular form, convenient for graphing. 
 
 ## Prerequisites
 
-The energy measurements of the CPUs is done through the Running Average Power Limit (RAPL). Support for these was added to the Linux kernel since version 3.14.
+The energy measurement of the CPUs is done through the Running Average Power Limit (RAPL). Support for these was added to the Linux kernel since version 3.14.
 
 To access the Nvidia GPUs and XeonPhi, Sauna uses two libraries provided by both manufacturers. From Nvidia, Sauna requires the [GDK](https://developer.nvidia.com/gpu-deployment-kit). And for the XeonPhi, the library is included in the device drivers package.
 
