@@ -1,6 +1,6 @@
 # Sauna
 
-An tool to measure energy the consumption of CPUs, GPUs and XeonPhi.
+A tool to measure energy the consumption of CPUs, GPUs and XeonPhi.
 
 It performs a sequence of power measurements on the different devices during the execution of a given program. Output is made in tabular form, convenient for graphing. 
 
